@@ -9,4 +9,6 @@
 	font-family: var(--textFont) !important;
 	text-decoration: none !important;
 	color: white !important;
+	margin-right: 10px;
+	
 }
