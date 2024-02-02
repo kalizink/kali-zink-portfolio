@@ -8,9 +8,9 @@ export default function WorkInquiry() {
 				<div className="col">
 					<h2 className="text-center mt-3">Work Inquiry</h2>
 					<p>Resume</p>
-					<p>kalizink65@gmail.com</p>
+					<p className="mailto:kalizink65@gmail.com">kalizink65@gmail.com</p>
 				</div>
-				<div className="col margin-adjust text-center ">
+				<div className="col margin-adjust  ">
 					<a
 						href="/"
 						alt="contatMe"
