@@ -1,0 +1,32 @@
+.WorkInquiry {
+	background: #0000001a;
+	border-radius: 4px;
+}
+.WorkInquiry p {
+	margin-left: 20px;
+}
+.contactMe-button {
+	background: var(--primaryColor);
+	border-radius: 4px;
+	color: white;
+	font-size: 27px;
+	line-height: 27px;
+	padding: 17px 36px;
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+}
+.contactMe-button:hover {
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid var(--primaryColor);
+	color: var(--primaryColor);
+}
+.margin-adjust {
+	margin-top: 47px;
+}
+@media (max-width: 900px) {
+	.contactMe-button {
+		font-size: medium;
+		margin-top: 0;
+	}
+}
