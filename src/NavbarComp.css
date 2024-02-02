@@ -1,0 +1,12 @@
+:root {
+	--primaryColor: #000000bd;
+	--pageColor: #ddd0c8;
+	--headerFont: "Playfair Display", serif;
+	--textFont: "Lora", serif;
+}
+
+.link {
+	font-family: var(--textFont) !important;
+	text-decoration: none !important;
+	color: white !important;
+}
