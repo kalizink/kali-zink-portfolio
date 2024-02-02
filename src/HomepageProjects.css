@@ -1,0 +1,69 @@
+:root {
+	--primaryColor: #000000bd;
+	--pageColor: #ddd0c8;
+	--headerFont: "Playfair Display", serif;
+	--textFont: "Lora", serif;
+}
+.HomepageProjects .container {
+	border-radius: 4px;
+	padding: 20px 5px;
+}
+.HomepageProjects h4 {
+	font-size: 50px;
+	margin-top: 30px;
+}
+.HomepageProjects h5 {
+	font-size: 35px;
+	margin-top: 35px;
+}
+.HomepageProjects .description {
+	padding: 10px 10px 10px 10px;
+	margin-left: 20px;
+	font-family: var(--textFont);
+}
+.HomepageProjects img {
+	border-radius: 4px;
+	height: 100%;
+	width: 100%;
+}
+.HomepageProjects p {
+	margin-top: 30px;
+}
+.learnMore-btn {
+	color: var(--primaryColor);
+	border: 1px solid var(--primaryColor);
+	border-radius: 4px;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 27px;
+	padding: 15px 30px;
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+}
+.btn-margin {
+	margin-top: 20px;
+} 
+
+.learnMore-btn:hover {
+	cursor: pointer;
+	background: var(--primaryColor);
+	color: white;
+}
+@media (max-width: 900px) {
+	.HomepageProjects h4 {
+		font-size: 35px;
+	}
+	.img-container {
+		display: none;
+	}
+	.HomepageProjects h5 {
+		font-size: 30px;
+		margin-top: 0;
+	}
+	.HomepageProjects p {
+		margin-top: 10px;
+	}
+	.btn-margin {
+		margin-top: 5px;
+	}
+}

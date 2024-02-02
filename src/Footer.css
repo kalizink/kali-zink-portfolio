@@ -4,10 +4,9 @@
 	--headerFont: "Playfair Display", serif;
 	--textFont: "Lora", serif;
 }
-.App {
-	/* max-width: 1200px; */
-	margin: 0 auto;
-	padding: 20px 30px;
-	background: #ddd0c8;
-	font-family: var(--headerFont);
+.Footer {
+	font-family: var(--textFont);
+}
+.Footer a {
+	color: #666361;
 }

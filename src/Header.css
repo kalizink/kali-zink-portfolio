@@ -1,0 +1,47 @@
+:root {
+	--primaryColor: #000000bd;
+	--pageColor: #ddd0c8;
+	--headerFont: "Playfair Display", serif;
+	--textFont: "Lora", serif;
+}
+.Header h1 {
+	font-size: 100px;
+}
+.Header h2 {
+	font-size: 40px;
+	font-family: var(--textFont);
+}
+.adjust-margin {
+	margin-top: 50px;
+}
+.contactMe-button {
+	background: var(--primaryColor);
+	border-radius: 4px;
+	color: white;
+	font-size: 30px;
+	line-height: 27px;
+	padding: 17px 36px;
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+}
+.Header a:hover {
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid var(--primaryColor);
+	color: var(--primaryColor);
+}
+@media (max-width: 900px) {
+	.Header h1 {
+		font-size: 50px;
+	}
+	.Header h2 {
+		font-size: 23px;
+	}
+	.contactMe-button {
+		font-size: medium;
+		margin-top: 0;
+	}
+	.adjust-margin {
+		margin-top: 30px;
+	}
+}
