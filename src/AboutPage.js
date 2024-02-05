@@ -8,6 +8,8 @@ import meditation from "./meditation.png";
 import food from "./food.png";
 import books from "./books.png";
 import plants from "./plants.png";
+import WorkInquiry from "./WorkInquiry";
+import Footer from "./Footer";
 
 export default function AboutPage() {
 	return (
@@ -90,6 +92,11 @@ export default function AboutPage() {
 					</div>
 				</div>
 			</section>
+			<br />
+			<br />
+			<WorkInquiry />
+			<br />
+			<Footer />
 		</div>
 	);
 }
