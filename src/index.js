@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import WorkPage from "./WorkPage.js";
 
 import AboutPage from "./AboutPage";
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
 	{
 		path: "AboutPage",
 		element: <AboutPage />,
+	},
+	{
+		path: "WorkPage",
+		element: <WorkPage />,
 	},
 ]);
 

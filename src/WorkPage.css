@@ -1,0 +1,19 @@
+:root {
+	--primaryColor: #000000bd;
+	--pageColor: #ddd0c8;
+	--headerFont: "Playfair Display", serif;
+	--textFont: "Lora", serif;
+}
+.WorkPage {
+	padding: 20px 30px;
+	background: #ddd0c8;
+	font-family: var(--headerFont);
+	margin: 0 auto;
+}
+.WorkPage p {
+	font-family: var(--textFont);
+}
+.WorkPage grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
