@@ -29,7 +29,19 @@ export default function AboutPage() {
 				</div>
 			</section>
 			<br />
-			<section className="hobbies-container"></section>
+			<section>
+				<div className="row">
+					<div className="col grid">
+						<div className="box">img1</div>
+						<div className="box">img2</div>
+						<div className="box">img3</div>
+						<div className="box">img4</div>
+						<div className="box">img5</div>
+						<div className="box">img6</div>
+					</div>
+					<div className="col">Hobbies:</div>
+				</div>
+			</section>
 		</div>
 	);
 }

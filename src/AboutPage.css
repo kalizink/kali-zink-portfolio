@@ -10,6 +10,14 @@
 	font-family: var(--headerFont);
 	margin: 0 auto;
 }
+.grid {
+	background: pink;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 24px;
+	align-items: center;
+	justify-content: center;
+}
 
 @media (max-width: 900px) {
 	.img-container {
