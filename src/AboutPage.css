@@ -5,11 +5,12 @@
 	--textFont: "Lora", serif;
 }
 .AboutPage {
-	margin: 0 auto;
 	padding: 20px 30px;
 	background: #ddd0c8;
 	font-family: var(--headerFont);
+	margin: 0 auto;
 }
+
 @media (max-width: 900px) {
 	.img-container {
 		display: none;

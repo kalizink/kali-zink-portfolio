@@ -8,7 +8,7 @@ export default function AboutPage() {
 		<div className="AboutPage">
 			<NavbarComp />
 			<br />
-			<div className="mt-5">
+			<section className="mt-5">
 				<div className="row">
 					<div className="col mt-5">
 						<h1 className="text-center">Kali Zink</h1>
@@ -27,7 +27,9 @@ export default function AboutPage() {
 						/>
 					</div>
 				</div>
-			</div>
+			</section>
+			<br />
+			<section className="hobbies-container"></section>
 		</div>
 	);
 }
