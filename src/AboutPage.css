@@ -10,6 +10,13 @@
 	font-family: var(--headerFont);
 	margin: 0 auto;
 }
+p {
+	font-family: var(--textFont);
+}
+.profile {
+	max-height: 500px;
+
+}
 .grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -33,5 +40,17 @@
 @media (max-width: 900px) {
 	.img-container {
 		display: none;
+	}
+	.grid {
+		display: none;
+	}
+	.text {
+		margin-top: 10px !important;
+	}
+	.header {
+		margin-top: 5px !important;
+	}
+	.AboutPage h3 {
+		font-size: 25px;
 	}
 }
