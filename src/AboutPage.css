@@ -10,3 +10,8 @@
 	background: #ddd0c8;
 	font-family: var(--headerFont);
 }
+@media (max-width: 900px) {
+	.img-container {
+		display: none;
+	}
+}
