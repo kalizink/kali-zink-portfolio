@@ -11,12 +11,23 @@
 	margin: 0 auto;
 }
 .grid {
-	background: pink;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 24px;
 	align-items: center;
 	justify-content: center;
+}
+.grid img {
+	border-radius: 3px;
+	width: 1000px;
+	height: 200px;
+	object-fit: cover;
+}
+.AboutPage h3 {
+	font-size: 40px;
+}
+.AboutPage .text {
+	margin-top: 100px;
 }
 
 @media (max-width: 900px) {
