@@ -49,6 +49,7 @@
 	}
 	.WorkInquiry p {
 		text-align: center;
-		margin-top: 5px;
+		margin: 5px auto;
+		padding: 0;
 	}
 }
