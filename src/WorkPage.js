@@ -1,6 +1,10 @@
 import React from "react";
 import NavbarComp from "./NavbarComp";
-import "./WorkPage.css"
+import "./WorkPage.css";
+import dictionary from "./dictionary.png";
+import weather from "./WeatherApp.png";
+import aiPoem from "./poem.png";
+import boogie from "./boogie.png";
 
 export default function WorkPage() {
 	return (
@@ -14,11 +18,39 @@ export default function WorkPage() {
 			</p>
 			<br />
 			<section>
-				<div className="grid">
-					<div>img1</div>
-					<div>img2</div>
-					<div>img3</div>
-					<div>img4</div>
+				<div className="grid text-center">
+					<div>
+						<img
+							src={dictionary}
+							alt="dictionary"
+							title="dictionary"
+							className="img-fluid"
+						/>
+					</div>
+					<div>
+						<img
+							src={weather}
+							alt="weather"
+							title="weather"
+							className="img-fluid"
+						/>
+					</div>
+					<div>
+						<img
+							src={aiPoem}
+							alt="AI generator"
+							title="AI generator"
+							className="img-fluid"
+						/>
+					</div>
+					<div>
+						<img
+							src={boogie}
+							alt="A Boogie Wit da Hoodie"
+							title="A Boogie Wit da Hoodie"
+							className="img-fluid"
+						/>
+					</div>
 				</div>
 			</section>
 		</div>
