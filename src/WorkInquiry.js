@@ -1,5 +1,6 @@
 import React from "react";
 import "./WorkInquiry.css";
+import { Link } from "react-router-dom";
 
 export default function WorkInquiry() {
 	return (
@@ -11,13 +12,18 @@ export default function WorkInquiry() {
 				</div>
 				<div className="column text-center margin-adjust2">
 					<div className="margin-adjust">
-						<a
-							href="/"
-							alt="no-rel"
-							title="Contact Kali"
-							className="contactMe-button">
+						<Link
+							to="/ContactPage"
+							className="contactMe-button"
+							onClick={() => {
+								window.scroll({
+									top: 0,
+									left: 0,
+									behavior: "smooth",
+								});
+							}}>
 							Contact Me
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
