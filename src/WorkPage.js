@@ -18,38 +18,14 @@ export default function WorkPage() {
 			</p>
 			<br />
 			<section>
-				<div className="grid text-center">
-					<div>
-						<img
-							src={dictionary}
-							alt="dictionary"
-							title="dictionary"
-							className="img-fluid"
-						/>
+				<div className="row">
+					<div className="column">
+						<img src={dictionary} alt="dictionary" title="dictionary app" />
 					</div>
-					<div>
-						<img
-							src={weather}
-							alt="weather"
-							title="weather"
-							className="img-fluid"
-						/>
-					</div>
-					<div>
-						<img
-							src={aiPoem}
-							alt="AI generator"
-							title="AI generator"
-							className="img-fluid"
-						/>
-					</div>
-					<div>
-						<img
-							src={boogie}
-							alt="A Boogie Wit da Hoodie"
-							title="A Boogie Wit da Hoodie"
-							className="img-fluid"
-						/>
+					<div className="column">
+						<img src={weather} alt="weather" title="weather app" />
+						<img src={aiPoem} alt="AI Generator" title="AI Generator app" />
+						<img src={boogie} alt="boogie" title="Responsive app" />
 					</div>
 				</div>
 			</section>
