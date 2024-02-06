@@ -5,6 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import WorkPage from "./WorkPage.js";
+import ContactPage from "./ContactPage.js";
 
 import AboutPage from "./AboutPage";
 
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
 	{
 		path: "WorkPage",
 		element: <WorkPage />,
+	},
+	{
+		path: "ContactPage",
+		element: <ContactPage />,
 	},
 ]);
 

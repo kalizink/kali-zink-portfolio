@@ -19,7 +19,7 @@ export default function WorkPage() {
 				Netlify{" "}
 			</p>
 
-			<section className="margin">
+			<section>
 				<div className="row">
 					<div className="column">
 						<div className="animateImg">

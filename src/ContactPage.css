@@ -1,0 +1,21 @@
+:root {
+	--primaryColor: #000000bd;
+	--pageColor: #ddd0c8;
+	--headerFont: "Playfair Display", serif;
+	--textFont: "Lora", serif;
+}
+.ContactPage {
+	padding: 20px 30px;
+	background: #ddd0c8;
+	font-family: var(--headerFont);
+	margin: 0 auto;
+}
+.ContactPage img {
+	display: block;
+	margin: 0 auto;
+	height: 150px;
+	width: auto;
+}
+.ContactPage h2 {
+	font-size: 23px;
+}
