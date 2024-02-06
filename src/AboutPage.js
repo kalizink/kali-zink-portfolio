@@ -15,7 +15,7 @@ export default function AboutPage() {
 	return (
 		<div className="AboutPage">
 			<NavbarComp />
-			<section >
+			<section>
 				<div className="row">
 					<div className="column mt-5">
 						<h1 className="text-center">Kali Zink</h1>
@@ -37,7 +37,12 @@ export default function AboutPage() {
 					<div className="column text-center">
 						<div className="grid-row">
 							<div className="grid-column">
-								<img src={gym} alt="gym" title="working out" />
+								<img
+									src={gym}
+									alt="gym"
+									title="working out"
+			
+								/>
 							</div>
 							<div className="grid-column">
 								<img src={cat} alt="cat" title="cats" />
