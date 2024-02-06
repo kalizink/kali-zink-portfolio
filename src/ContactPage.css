@@ -20,7 +20,7 @@
 	font-size: 23px;
 	font-family: var(--textFont);
 }
-.ContactPage a {
+.ContactPage .text {
 	text-decoration: none;
 	color: black;
 }
