@@ -3,6 +3,7 @@ import WeatherApp from "./WeatherApp.png";
 import "./HomepageProjects.css";
 import Boogie from "./boogie.png";
 import Poem from "./poem.png";
+import { Link } from "react-router-dom";
 
 export default function HomepageProjects() {
 	return (
@@ -29,9 +30,18 @@ export default function HomepageProjects() {
 					</p>
 					<br />
 					<div className="text-center btn-margin">
-						<a href="/" className="learnMore-btn">
+						<Link
+							to="/WorkPage"
+							className="learnMore-btn"
+							onClick={() => {
+								window.scroll({
+									top: 0,
+									left: 0,
+									behavior: "smooth",
+								});
+							}}>
 							Learn More
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>
@@ -49,9 +59,9 @@ export default function HomepageProjects() {
 					</p>
 					<br />
 					<div className="text-center btn-margin">
-						<a href="/" className="learnMore-btn">
+						<Link to="/WorkPage#responsiveApp" className="learnMore-btn">
 							Learn More
-						</a>
+						</Link>
 					</div>
 				</div>
 				<div className="col img-container">
@@ -86,9 +96,18 @@ export default function HomepageProjects() {
 					</p>
 					<br />
 					<div className="text-center btn-margin">
-						<a href="/" className="learnMore-btn">
+						<Link
+							to="/WorkPage"
+							className="learnMore-btn"
+							onClick={() => {
+								window.scroll({
+									top: 0,
+									left: 0,
+									behavior: "smooth",
+								});
+							}}>
 							Learn More
-						</a>
+						</Link>
 					</div>
 				</div>
 			</div>

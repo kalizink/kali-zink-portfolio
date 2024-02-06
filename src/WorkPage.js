@@ -38,7 +38,7 @@ export default function WorkPage() {
 					</div>
 
 					<div className="column">
-						<div className="animateImg">
+						<div className="animateImg" id="weather-app">
 							<a
 								href="https://weather-react-app-kz.netlify.app/"
 								alt="weather app"
@@ -52,7 +52,7 @@ export default function WorkPage() {
 							</div>
 						</div>
 
-						<div className="animateImg">
+						<div className="animateImg" id="aiPoem-app">
 							<a
 								href="https://ai-poem-generator-kz.netlify.app/"
 								alt="AI Generator"
@@ -78,7 +78,7 @@ export default function WorkPage() {
 									title="Responsive Web Design"
 								/>
 							</a>
-							<div className="text-center description">
+							<div className="text-center description" id="responsiveApp">
 								<strong>Responsive Web Design</strong> built with: Flexbox,
 								Google SEO, and Responsive
 							</div>
