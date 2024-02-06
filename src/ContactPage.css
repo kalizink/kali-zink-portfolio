@@ -29,3 +29,8 @@
 	color: #666361;
 	text-decoration: underline;
 }
+@media (max-width: 900px) {
+	.ContactPage h2 {
+		font-size: 18px;
+	}
+}
