@@ -15,79 +15,59 @@ export default function AboutPage() {
 	return (
 		<div className="AboutPage">
 			<NavbarComp />
-			<br />
-			<section className="mt-5 header">
+			<section >
 				<div className="row">
-					<div className="col mt-5">
-						<h1 className="text-center mt-5">Kali Zink</h1>
+					<div className="column mt-5">
+						<h1 className="text-center">Kali Zink</h1>
 						<h2 className="text-center mt-3">Jr. React Front-end Developer</h2>
-						<div className="mt-4">
+						<p className="mt-4">
 							{`I'm an eager, self-starting individual who possesses the technical proficiency to debug, optimize functions, learn new platforms, and elevate user experience. Seeking to leverage technical skillset, the opportunity to collaborate, and grow professionally.`}
-						</div>
+						</p>
 					</div>
-					<div className="col img-container text-center">
-						{" "}
+					<div className="column ">
 						<img
 							src={profileImg}
-							alt="profile pic"
+							alt="profile"
 							title="Kali Zink"
 							className="img-fluid profile"
 						/>
 					</div>
 				</div>
-			</section>
-			<br />
-			<section>
 				<div className="row">
-					<div className="col grid">
-						<div className="box">
-							<img
-								src={gym}
-								alt="gym"
-								title="working out"
-								className="img-fluid"
-							/>
+					<div className="column text-center">
+						<div className="grid-row">
+							<div className="grid-column">
+								<img src={gym} alt="gym" title="working out" />
+							</div>
+							<div className="grid-column">
+								<img src={cat} alt="cat" title="cats" />
+							</div>
+							<div className="grid-column">
+								<img src={meditation} alt="meditation" title="meditation" />
+							</div>
 						</div>
-						<div className="box">
-							<img src={cat} alt="cat" title="cats" className="img-fluid" />
-						</div>
-						<div className="box">
-							<img
-								src={meditation}
-								alt="meditation"
-								title="meditation"
-								className="img-fluid"
-							/>
-						</div>
-						<div className="box">
-							<img
-								src={food}
-								alt="food"
-								title="cooking"
-								className="img-fluid"
-							/>
-						</div>
-						<div className="box">
-							<img
-								src={books}
-								alt="books"
-								title="books"
-								className="img-fluid"
-							/>
-						</div>
-						<div className="box">
-							<img
-								src={plants}
-								alt="plants"
-								title="plants"
-								className="img-fluid"
-							/>
+						<div className="grid-row">
+							<div className="grid-column">
+								<img src={food} alt="food" title="cooking" />
+							</div>
+							<div className="grid-column">
+								<img src={books} alt="books" title="books" />
+							</div>
+							<div className="grid-column">
+								<img src={plants} alt="plants" title="plants" />
+							</div>
 						</div>
 					</div>
-					<div className="col text-center text">
-						<h3>My Hobbies:</h3>
-						<p className="mt-4">
-							{`I like to invest in myself and continue to grow by meditating and reading thriller or self-help books. I also go to the gym consistently and meal prep fun, healthy meals because I found a new interest in cooking. I enjoy the process even though it doesn’t always come out as expected (haha). I love my plants and spending time with my two cats. `}
+
+					<div className="column">
+						<h3 className="text-center">My Hobbies:</h3>
+						<p>
+							I like to invest in myself and continue to grow by meditating and
+							reading thriller or self-help books. I also go to the gym
+							consistently and meal prep fun, healthy meals because I found a
+							new interest in cooking. I enjoy the process even though it
+							doesn’t always come out as expected (haha). I love my plants and
+							spending time with my two cats.
 						</p>
 					</div>
 				</div>
