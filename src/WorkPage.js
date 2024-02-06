@@ -5,6 +5,8 @@ import dictionary from "./dictionary.png";
 import weather from "./WeatherApp.png";
 import aiPoem from "./poem.png";
 import boogie from "./boogie.png";
+import WorkInquiry from "./WorkInquiry";
+import Footer from "./Footer";
 
 export default function WorkPage() {
 	return (
@@ -84,6 +86,10 @@ export default function WorkPage() {
 					</div>
 				</div>
 			</section>
+			<br />
+			<WorkInquiry />
+			<br />
+			<Footer />
 		</div>
 	);
 }
