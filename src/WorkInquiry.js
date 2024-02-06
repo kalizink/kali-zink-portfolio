@@ -5,10 +5,9 @@ export default function WorkInquiry() {
 	return (
 		<div className="WorkInquiry">
 			<div className="row">
-				<div className="column mt-3 ">
-					<h2 className="text-center">Work Inquiry</h2>
-					<p>Resume</p>
-					<p>kalizink65@gmail.com</p>
+				<div className="column text-center mt-3 ">
+					<h2>Work Inquiry</h2>
+					<p className="mt-3">kalizink65@gmail.com</p>
 				</div>
 				<div className="column text-center margin-adjust2">
 					<div className="margin-adjust">
