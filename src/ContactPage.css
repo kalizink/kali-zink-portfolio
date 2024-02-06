@@ -18,4 +18,14 @@
 }
 .ContactPage h2 {
 	font-size: 23px;
+	font-family: var(--textFont);
+}
+.ContactPage a {
+	text-decoration: none;
+	color: black;
+}
+.ContactPage a:hover {
+	cursor: pointer;
+	color: #666361;
+	text-decoration: underline;
 }
