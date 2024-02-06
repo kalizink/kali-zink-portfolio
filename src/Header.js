@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 export default function Header() {
 	return (
@@ -9,9 +10,9 @@ export default function Header() {
 				Jr. React Front-end Developer based in Houston, TX
 			</h2>
 			<div className="text-center adjust-margin">
-				<a href="/" className="contactMe-button">
+				<Link to="/ContactPage" className="contactMe-button">
 					Contact Me
-				</a>
+				</Link>
 			</div>
 		</div>
 	);
