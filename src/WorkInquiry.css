@@ -1,38 +1,54 @@
+:root {
+	--primaryColor: #000000bd;
+	--pageColor: #ddd0c8;
+	--headerFont: "Playfair Display", serif;
+	--textFont: "Lora", serif;
+}
+
 .WorkInquiry {
 	background: #0000001a;
 	border-radius: 4px;
+	font-family: var(--textFont);
 }
-.WorkInquiry p {
-	margin-left: 20px;
+.WorkInquiry h2 {
+	font-family: var(--headerFont);
+	margin: 0 auto;
 }
+
 .contactMe-button {
 	background: var(--primaryColor);
 	border-radius: 4px;
 	color: white;
-	font-size: 27px;
+	font-size: 30px;
 	line-height: 27px;
 	padding: 17px 36px;
 	text-decoration: none;
 	transition: all 150ms ease-in-out;
 }
-.contactMe-button:hover {
+.WorkInquiry a:hover {
 	cursor: pointer;
 	background: transparent;
 	border: 1px solid var(--primaryColor);
 	color: var(--primaryColor);
 }
 .margin-adjust {
-	margin-top: 47px;
-	text-align: center;
+	margin: 50px 25px;
 }
 @media (max-width: 900px) {
+	.WorkInquiry {
+		text-align: center;
+	}
 	.contactMe-button {
-		font-size: 15px;
-		padding: 10px 8px;
+		font-size: 20px;
 	}
 	.margin-adjust {
-		margin-top: 55px;
-		margin-right: 8px;
-		text-align: right;
+		margin: 25px auto;
+	}
+	.margin-adjust2 {
+		margin-bottom: 10px;
+	}
+	.WorkInquiry p {
+		text-align: center;
+		margin-top: 5px;
 	}
 }
