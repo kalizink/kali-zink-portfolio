@@ -33,16 +33,12 @@ export default function AboutPage() {
 						/>
 					</div>
 				</div>
+				<hr />
 				<div className="row">
 					<div className="column text-center">
-						<div className="grid-row">
-							<div className="grid-column">
-								<img
-									src={gym}
-									alt="gym"
-									title="working out"
-			
-								/>
+						<div className="grid-row top-row">
+							<div className="grid-column ">
+								<img src={gym} alt="gym" title="working out" />
 							</div>
 							<div className="grid-column">
 								<img src={cat} alt="cat" title="cats" />
@@ -51,7 +47,7 @@ export default function AboutPage() {
 								<img src={meditation} alt="meditation" title="meditation" />
 							</div>
 						</div>
-						<div className="grid-row">
+						<div className="grid-row bottom-row">
 							<div className="grid-column">
 								<img src={food} alt="food" title="cooking" />
 							</div>
@@ -63,10 +59,9 @@ export default function AboutPage() {
 							</div>
 						</div>
 					</div>
-
-					<div className="column">
+					<div className="column mt-5 responsive">
 						<h3 className="text-center">My Hobbies:</h3>
-						<p>
+						<p className="mt-4">
 							I like to invest in myself and continue to grow by meditating and
 							reading thriller or self-help books. I also go to the gym
 							consistently and meal prep fun, healthy meals because I found a

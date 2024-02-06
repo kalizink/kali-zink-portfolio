@@ -18,7 +18,9 @@
 }
 .AboutPage h3 {
 	font-size: 40px;
+	margin-top: 50px;
 }
+
 p {
 	font-family: var(--textFont);
 	padding-left: 20px;
@@ -46,21 +48,33 @@ p {
 .grid-row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0 4px;
 }
 .grid-column {
 	flex: 30%;
+	max-width: 100%;
+	height: auto;
+	margin-bottom: -50px;
+}
+.grid-column img {
+	max-width: 100%;
+	height: 75%;
+}
+.top-row {
+	margin-bottom: -50px;
+	padding: 0, 0.4px;
 }
 
 @media (max-width: 900px) {
 	.text {
 		margin-top: 10px !important;
 	}
-	.AboutPage h1 {
+	.AboutPage h1,
+	h3 {
 		margin-top: 25px;
 	}
 	.AboutPage h3 {
 		font-size: 25px;
+		margin-top: 0;
 	}
 	.column {
 		flex: 100%;
@@ -68,5 +82,17 @@ p {
 	}
 	.column .profile {
 		padding: 25px;
+	}
+	.grid-column {
+		margin-bottom: 0;
+	}
+	.responsive {
+		margin-top: 5px;
+		padding: 0, 5px;
+	}
+}
+@media (min-width: 900px) {
+	.AboutPage hr {
+		display: none;
 	}
 }
