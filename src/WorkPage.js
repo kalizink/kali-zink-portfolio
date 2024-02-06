@@ -23,8 +23,22 @@ export default function WorkPage() {
 						<img src={dictionary} alt="dictionary" title="dictionary app" />
 					</div>
 					<div className="column">
-						<img src={weather} alt="weather" title="weather app" />
-						<img src={aiPoem} alt="AI Generator" title="AI Generator app" />
+						{/* *** */}
+						<div className="animateImg">
+							<a
+								href="https://weather-react-app-kz.netlify.app/"
+								alt="weather app"
+								title="Weather App"
+								target="blank">
+								<img src={weather} alt="weather" title="Weather App" />
+							</a>
+							<div className="text-center description">
+								<strong>Weather App</strong> built with: React.js, JavaScript,
+								and Bootstrap
+							</div>
+						</div>
+						{/* *** */}
+						<img src={aiPoem} alt="AI Generator" title="AI Generator App" />
 						<img src={boogie} alt="boogie" title="Responsive app" />
 					</div>
 				</div>
