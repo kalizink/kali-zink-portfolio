@@ -87,8 +87,7 @@ p {
 		margin-bottom: 0;
 	}
 	.responsive {
-		margin-top: 5px;
-		padding: 0, 5px;
+		margin-top: -10px !important;
 	}
 }
 @media (min-width: 900px) {
