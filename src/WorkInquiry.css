@@ -15,7 +15,7 @@
 	margin: 0 auto;
 }
 
-.contactMe-button {
+.WorkInquiry .contactMe-button {
 	background: var(--primaryColor);
 	border-radius: 4px;
 	color: white;
@@ -31,20 +31,20 @@
 	border: 1px solid var(--primaryColor);
 	color: var(--primaryColor);
 }
-.margin-adjust {
+.WorkInquiry .margin-adjust {
 	margin: 50px 25px;
 }
 @media (max-width: 900px) {
 	.WorkInquiry {
 		text-align: center;
 	}
-	.contactMe-button {
+	.WorkInquiry .contactMe-button {
 		font-size: 20px;
 	}
-	.margin-adjust {
+	.WorkInquiry .margin-adjust {
 		margin: 25px auto;
 	}
-	.margin-adjust2 {
+	.WorkInquiry .margin-adjust2 {
 		margin-bottom: 10px;
 	}
 	.WorkInquiry p {

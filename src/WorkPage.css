@@ -14,38 +14,38 @@
 .WorkPage p {
 	font-family: var(--textFont);
 }
-.row {
+.WorkPage .row {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
 }
 /* Create two equal columns that sits next to each other */
-.column {
+.WorkPage .column {
 	flex: 50%;
 	max-width: 50%;
 	padding: 0 4px;
 }
 
-.column img {
+.WorkPage .column img {
 	margin-top: 15px;
 	vertical-align: middle;
 	width: 100%;
 
 	padding: 20px;
 }
-.animateImg:hover {
+.WorkPage .animateImg:hover {
 	cursor: pointer;
 	transform: scale(1.1);
 	transition: all 100ms ease-in-out;
 }
-.description {
+.WorkPage .description {
 	font-size: 20px;
 	font-family: var(--textFont);
 	margin-left: 20px;
 	margin-right: 20px;
 }
 @media (max-width: 900px) {
-	.column {
+	.WorkPage .column {
 		flex: 100%;
 		max-width: 100%;
 	}
