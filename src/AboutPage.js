@@ -35,10 +35,15 @@ export default function AboutPage() {
 				</div>
 				<hr />
 				<div className="row">
-					<div className="column text-center">
-						<div className="grid-row top-row">
+					<div className="column text-center display">
+						<div className="grid-row top-row mb-4">
 							<div className="grid-column ">
-								<img src={gym} alt="gym" title="working out" />
+								<img
+									src={gym}
+									alt="gym"
+									title="working out"
+									className="img-fluid"
+								/>
 							</div>
 							<div className="grid-column">
 								<img src={cat} alt="cat" title="cats" />
@@ -47,7 +52,7 @@ export default function AboutPage() {
 								<img src={meditation} alt="meditation" title="meditation" />
 							</div>
 						</div>
-						<div className="grid-row bottom-row">
+						<div className="grid-row">
 							<div className="grid-column">
 								<img src={food} alt="food" title="cooking" />
 							</div>
@@ -59,7 +64,7 @@ export default function AboutPage() {
 							</div>
 						</div>
 					</div>
-					<div className="column mt-5 responsive">
+					<div className="column mt-5 ">
 						<h3 className="text-center">My Hobbies:</h3>
 						<p className="mt-4">
 							I like to invest in myself and continue to grow by meditating and
