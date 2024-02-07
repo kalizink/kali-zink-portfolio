@@ -52,4 +52,12 @@
 	.WorkPage p {
 		padding: 0;
 	}
+	.WorkPage .margin-adjust {
+		margin-top: -5px;
+	}
+}
+@media (min-width: 900px) {
+	.WorkPage hr {
+		display: none;
+	}
 }

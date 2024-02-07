@@ -22,7 +22,7 @@ export default function WorkPage() {
 			<section>
 				<div className="row">
 					<div className="column">
-						<div className="animateImg">
+						<div className="animateImg margin-adjust">
 							<a
 								href="https://dictionary-kz.netlify.app/"
 								alt="dictionary app"
@@ -36,7 +36,7 @@ export default function WorkPage() {
 							</div>
 						</div>
 					</div>
-
+					<hr className="mt-4 mb-0" />
 					<div className="column">
 						<div className="animateImg" id="weather-app">
 							<a
@@ -51,7 +51,7 @@ export default function WorkPage() {
 								and Bootstrap
 							</div>
 						</div>
-
+						<hr className="mt-4 mb-0" />
 						<div className="animateImg" id="aiPoem-app">
 							<a
 								href="https://ai-poem-generator-kz.netlify.app/"
@@ -65,7 +65,7 @@ export default function WorkPage() {
 								and Artificial Intelligence{" "}
 							</div>
 						</div>
-
+						<hr className="mt-4 mb-0" />
 						<div className="animateImg">
 							<a
 								href="https://a-boogie-responsive-website-kz.netlify.app/"

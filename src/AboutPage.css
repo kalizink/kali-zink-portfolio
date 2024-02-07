@@ -5,7 +5,7 @@
 	--textFont: "Lora", serif;
 }
 .AboutPage {
-	padding: 0 30px;
+	padding: 20px 30px;
 	background: #ddd0c8;
 	font-family: var(--headerFont);
 	margin: 0 auto;
