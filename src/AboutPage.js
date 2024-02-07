@@ -64,7 +64,7 @@ export default function AboutPage() {
 							</div>
 						</div>
 					</div>
-					<div className="column mt-5 ">
+					<div className="column mt-5 margin-adjust">
 						<h3 className="text-center">My Hobbies:</h3>
 						<p className="mt-4">
 							I like to invest in myself and continue to grow by meditating and
