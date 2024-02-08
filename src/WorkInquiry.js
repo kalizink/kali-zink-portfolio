@@ -8,7 +8,7 @@ export default function WorkInquiry() {
 			<div className="row">
 				<div className="column text-center mt-3 ">
 					<h2>Work Inquiry</h2>
-					<p className="mt-3">kalizink65@gmail.com</p>
+					<div className="mt-3 text">kalizink65@gmail.com</div>
 				</div>
 				<div className="column text-center margin-adjust2">
 					<div className="margin-adjust">
