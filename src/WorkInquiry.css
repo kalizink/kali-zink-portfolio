@@ -52,4 +52,9 @@
 		margin: 5px auto;
 		padding: 0;
 	}
+	/* added */
+	.WorkInquiry .column {
+		flex: 100%;
+		max-width: 100%;
+	}
 }

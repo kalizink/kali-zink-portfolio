@@ -44,14 +44,14 @@
 	margin-right: 20px;
 }
 @media (max-width: 900px) {
-	.WorkPage .column {
+	.WorkPage section .column {
 		flex: 100%;
 		max-width: 100%;
 	}
-	.WorkPage p {
+	.WorkPage section p {
 		padding: 0;
 	}
-	.WorkPage .margin-adjust {
+	.WorkPage section .margin-adjust {
 		margin-top: -5px;
 	}
 }
