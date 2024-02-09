@@ -15,7 +15,7 @@ export default function WorkPage() {
 			<br />
 			<h1 className="mt-5 text-center">Featured Projects</h1>
 			<p className="text-center">
-				<strong>Tools and Equipment:</strong> VS Code, MacOS, Github, and
+				<strong>Tools and Equipment:</strong> VS Code, NPM, MacOS, Github, and
 				Netlify{" "}
 			</p>
 
