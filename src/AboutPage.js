@@ -21,7 +21,7 @@ export default function AboutPage() {
 						<h1 className="text-center">Kali Zink</h1>
 						<h2 className="text-center mt-3">Jr. React Front-end Developer</h2>
 						<p className="mt-4">
-							{`I'm an eager, self-starting individual who possesses the technical proficiency to debug, optimize functions, learn new platforms, and elevate user experience. Seeking to leverage technical skillset, the opportunity to collaborate, and grow professionally.`}
+							{`I'm an eager, self-starting individual who possesses the technical proficiency to debug, optimize functions, learn new platforms, and elevate user experience. Seeking to work in a team setting with opportunities to learn new techniques and grow within a company. `}
 						</p>
 					</div>
 					<div className="column ">
